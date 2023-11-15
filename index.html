@@ -49,6 +49,8 @@
   body {
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #0f0e17;
+    justify-content: center;
   }
 </style>
 
@@ -73,11 +75,6 @@
 </style>
 
 <style>
-  body {
-    background-color: #0f0e17
-    justify-content: center;
-  }
-
   .name {
     color: #fffffe;
     display: flex;
@@ -101,11 +98,17 @@
 
   .link {
     background-color: #e78fb3;
+    display: flex;
+    align-items: center;
+    border: thin orange solid;
+    padding: 5px;
   }
 
   .link a {
     color: #001e1d;
     text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
   }
 </style>
 
@@ -115,24 +118,6 @@
     flex-direction: column;
     gap: 30px;
     max-width: 640px;
-    flex-grow: 1;
-  }
-</style>
-
-<style>
-  .link {
-    background-color: #f9bc60;
-    display: flex;
-    align-items: center;
-    border: thin orange solid;
-    padding: 5px;
-  }
-  </style>
-<style>
-  .link a {
-    color: #001e1d;
-    text-decoration none;
-    text-align: center;
     flex-grow: 1;
   }
 </style>
